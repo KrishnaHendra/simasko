@@ -7,3 +7,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Home
 - Profile
 - Struktur Organisasi
+- Daftar Kejuruan
