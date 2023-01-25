@@ -8,3 +8,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Profile
 - Struktur Organisasi
 - Daftar Kejuruan
+- Pengumuman
