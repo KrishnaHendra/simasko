@@ -1,0 +1,416 @@
+<!--
+THEME: Bingo | Responsive Multipurpose Parallax HTML5 Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+
+HOMEPAGE: https://themefisher.com/products/bingo-bootstrap-business-template/
+DEMO: https://demo.themefisher.com/themefisher/bingo/
+GITHUB: https://github.com/themefisher/Bingo-Bootstrap-Business-Template/
+
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Bingo | Responsive Multipurpose Parallax HTML5 Template</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="One page parallax responsive HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images\favicon.png">
+
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins\themefisher-font\style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins\bootstrap\bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins\lightbox2\css\lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins\animate\animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins\slick\slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css\style.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+
+  <style media="screen">
+    table.dataTable.no-footer{
+      border-bottom: 1px solid #dee2e6;
+    }
+    .card-kejuruan{
+      cursor: pointer;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 0 !important;
+    }
+    .card-kejuruan:hover{
+      background: grey;
+      color: white;
+    }
+    small{
+      font-weight: bold;
+    }
+    .form-control{
+      padding: 8px;
+    }
+  </style>
+
+</head>
+<body id="body">
+
+  <!--
+  Start Preloader
+  ==================================== -->
+  <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!--
+  End Preloader
+  ==================================== -->
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top">
+  <div class="container">
+    <!-- main nav -->
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <!-- logo -->
+      <a class="navbar-brand logo" href="index.html">
+        <img loading="lazy" class="logo-default" src="images\simasko-black.png" alt="logo" style="height:25px !important;">
+        <img loading="lazy" class="logo-white" src="images\simasko-white.png" alt="logo" style="height:25px !important;">
+      </a>
+      <!-- /logo -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Informasi <i class="tf-ion-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+              <li><a class="dropdown-item" href="strukturOrganisasi.html">Struktur Organisasi</a></li>
+              <li><a class="dropdown-item" href="daftarKejuruan.html">Daftar Kejuruan</a></li>
+              <li><a class="dropdown-item active" href="pengumuman.html">Pengumuman</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ketentuan & Kebijakan <i class="tf-ion-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+              <li><a class="dropdown-item" href="syaratDanKetentuan.html">Syarat dan Ketentuan</a></li>
+              <li><a class="dropdown-item" href="kebijakanPrivasi.html">Kebijakan Privasi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alumni.html">Alumni</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Login/Register <i class="tf-ion-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+              <li><a class="dropdown-item" href="login.html">Login</a></li>
+              <li><a class="dropdown-item" href="register.html">Register</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /main nav -->
+  </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Pengumuman</h2>
+				<ol class="breadcrumb header-bradcrumb justify-content-center">
+					<li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Pengumuman</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Start Portfolio Section
+		=========================================== -->
+
+<section class="portfolio section-sm" id="portfolio">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-xl-6 col-lg-8">
+				<!-- section title -->
+				<div class="title text-center">
+					<h2>Pengumuman Peserta</h2>
+					<p>Berikut ini merupakan daftar semua peserta yang lolos pada <b>Gelombang IV</b> tahun pendaftaran <b>2021</b> sesuai masing-masing kejuruan. </p>
+					<div class="border"></div>
+				</div>
+				<!-- /section title -->
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-12">
+            <div class="input-group mb-4">
+              <input type="text" class="form-control" placeholder="Masukkan nama kejuruan..." aria-describedby="basic-addon2">
+              <div class="input-group-append text-center">
+                <span class="input-group-text font-weight-bold text-center" id="basic-addon2">CARI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="alert alert-primary text-center">
+              Peserta <b>Gelombang IV</b> Tahun Pendaftaran <b>2020</b>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Pemesinan</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Pengelasan</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Hotel dan Restoran</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Tata Boga</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Geomatika</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Informasi Geospasial</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Pemesinan</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Pengelasan</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Hotel dan Restoran</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Tata Boga</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Teknik Geomatika</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow mb-4 card-kejuruan" style="border-radius: 20px; border: border: 3px solid rgba(0,0,0,.125);">
+              <div class="card-body text-center">
+                <h4 class="m-0">Informasi Geospasial</h4>
+                <small class="text-danger">Diupdate pada 02 Dec 2021 14:33</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- End section -->
+
+
+<footer id="footer" class="bg-one">
+  <div class="top-footer">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+          <h3>About</h3>
+          <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <ul>
+            <li>
+              <h3>Info</h3>
+            </li>
+            <li><a href="syaratDanKetentuan.html">Syarat & Ketentuan</a></li>
+            <li><a href="kebijakanPrivasi.html">Kebijakan Privasi</a></li>
+            <li><a href="strukturOrganisasi.html">Struktur Organisasi</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+          <ul>
+            <li>
+              <h3>Main Menu</h3>
+            </li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="pengumuman.html">Pengumuman</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+            <li><a href="alumni.html">Alumni</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-lg-3 col-md-6">
+          <ul>
+            <li>
+              <h3>Connect with us Socially</h3>
+            </li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+      </div>
+    </div> <!-- end container -->
+  </div>
+  <div class="footer-bottom">
+    <h5>&copy; Copyright 2021. All rights reserved.</h5>
+    <h6>Design and Developed by <a href="#">SIMASKO</a></h6>
+  </div>
+</footer> <!-- end footer -->
+
+
+<!-- end Footer Area
+========================================== -->
+<!--
+    Essential Scripts
+    =====================================-->
+<!-- Main jQuery -->
+<script src="plugins\jquery\jquery.min.js"></script>
+
+<!-- Bootstrap4 -->
+<script src="plugins\bootstrap\bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="plugins\parallax\jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="plugins\lightbox2\js\lightbox.min.js"></script>
+<!-- Owl Carousel -->
+<script src="plugins\slick\slick.min.js"></script>
+<!-- filter -->
+<script src="plugins\filterizr\jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="plugins\smooth-scroll\smooth-scroll.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+<script src="plugins\google-map\gmap.js"></script>
+
+<!-- Custom js -->
+<script src="js\script.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#dataTable').DataTable();
+  })
+</script>
+
+</body>
+
+</html>
