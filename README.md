@@ -12,3 +12,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Syarat & Ketentuan
 - Kebijakan Privasi
 - Kontak
+- Alumni
