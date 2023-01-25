@@ -15,3 +15,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Alumni
 - Login (with dynamic validation)
 - Register
+- Admin Page
