@@ -9,3 +9,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Struktur Organisasi
 - Daftar Kejuruan
 - Pengumuman
+- Syarat & Ketentuan
