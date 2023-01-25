@@ -13,3 +13,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Kebijakan Privasi
 - Kontak
 - Alumni
+- Login (with dynamic validation)
