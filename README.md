@@ -10,3 +10,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Daftar Kejuruan
 - Pengumuman
 - Syarat & Ketentuan
+- Kebijakan Privasi
