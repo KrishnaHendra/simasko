@@ -11,3 +11,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Pengumuman
 - Syarat & Ketentuan
 - Kebijakan Privasi
+- Kontak
