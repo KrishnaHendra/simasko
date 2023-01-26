@@ -1,6 +1,6 @@
 @extends('template.templatedark')
 
-@section('content')
+@section('content') 
     
 
  <!--Start Contact Us
