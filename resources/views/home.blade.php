@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="hero-slider">
+<div class="hero-slider"> 
 	<div class="slider-item th-fullpage hero-area" style="background-image: url(assets/images/slider/slider-bg-1.jpg);">
 		<div class="container">
 			<div class="row">
