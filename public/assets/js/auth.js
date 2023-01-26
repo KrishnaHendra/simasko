@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    // Login  
+    // Login   
     $('#formLogin').submit(function(e){
         var email = $('#email').val();
         var password = $('#password').val();
