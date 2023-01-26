@@ -16,3 +16,4 @@ Website Sistem Informasi Balai Latihan Kerja
 - Login (with dynamic validation)
 - Register
 - Admin Page
+- Dynamic Function (CRUD)
