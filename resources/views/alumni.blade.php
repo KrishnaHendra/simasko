@@ -2,7 +2,7 @@
 
 @section('content')
 
- 
+  
 <section class="single-page-header">
 	<div class="container">
 		<div class="row">
