@@ -26,15 +26,15 @@ class AuthController extends Controller
         return view('register', $data);
     }
 
-    public function createCaptchaCode(){
-        $string1    = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        $string2    = "1234567890";
-        $string     = $string1.$string2;
-        $string     = str_shuffle($string);
-        // change the number to change number of chars
-        $random_text= substr($string,0,8);
-        return $random_text;
-    }
+//     public function createCaptchaCode(){
+//         $string1    = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//         $string2    = "1234567890";
+//         $string     = $string1.$string2;
+//         $string     = str_shuffle($string);
+//         // change the number to change number of chars
+//         $random_text= substr($string,0,8);
+//         return $random_text;
+//     }
 
     public function postLogin(Request $req){
         if(!Auth::attempt(['email' => $req->email, 'password' => $req->password])){
