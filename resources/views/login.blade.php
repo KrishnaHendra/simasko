@@ -53,7 +53,16 @@
                        </div>
                        <input type="password" id="password" name="password" class="form-control" placeholder="Masukkan password">
                      </div>
-                     
+                     // Set captcha value
+                     <div class="form-group">
+                        <input type="hidden" id="valid_captcha" name="valid_captcha" value="{{ $captcha }}">
+                       <div class="input-group mb-3">
+                         <div class="input-group-prepend">
+                           <span class="input-group-text captcha-code no-tcp" id="basic-addon1">{{ $captcha }}</span>
+                         </div>
+                         <input type="text" id="captcha" class="form-control" name="captcha" placeholder="Masukkan kode captcha" aria-label="Username" aria-describedby="basic-addon1">
+                       </div>
+                     </div>
    
                      <button type="submit" id="btnLogin" class="btn btn-primary btn-block" style="border-radius: 0px; padding: 8px;">Masuk</button>
                    </form>
